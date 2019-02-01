@@ -1,0 +1,25 @@
+entero: Conteo
+Caracter: Contraseña
+conteo<---0
+
+inicio
+	repetir
+	Escribir ("Contraseña")
+	Leer ("Contraseña")
+	si (Contraseña = "IPC1")
+	entonces 
+		Escribir("La palabra es correcta")
+	sino
+		Si (Conteo = 3)
+	finsi
+		entonces Escribir("Ha fallado la autenticación")
+
+		sino
+			Conteo <--- Conteo + 1
+		finsi
+	Hasta conteo = 3
+		
+	finhasta
+fin
+
+

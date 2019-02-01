@@ -1,0 +1,18 @@
+Entero: SUMA, CONTEO
+CONTEO <---- 0
+SUMA <----- 0
+Inicio
+	Escribir("Ingrese un NUMERO")
+	repetir
+	Leer("NUMERO")
+	Conteo <--- Conteo + 1
+	SUMA <---- SUMA + NUMERO
+	si CONTEO = 10 
+	PROMEDIO <----- SUMA/10
+		entonces escribir(SUMA, PROMEDIO)
+	sino
+		escribir("Ingrese un NUMERO")
+	finsi
+	Hasta Conteo = 10
+	finhasta
+fin

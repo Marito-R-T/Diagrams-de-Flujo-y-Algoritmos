@@ -1,0 +1,16 @@
+Entero: NUMERO
+
+inicio
+	Escribir("Ingrese un DIGITO")
+	Leer ("DIGITO")
+	Repetir
+ 		si NUMERO < DIGITO
+			entonces Escribir("NUMERO")
+			NUMERO <---- NUMERO +2
+		sino Escribir ("DIGITO")
+		finsi
+	Hasta NUMERO >= DIGITO
+	finhasta
+fin
+
+	

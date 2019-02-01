@@ -1,0 +1,13 @@
+Inicio
+	Escribir("Introducir altura y base del triangulo")
+	
+		Escribir("altura");
+		Leer("altura");
+		Escribir("base")
+		Leer("base")
+	
+	Paso1 <----  base * altura
+	Area <---- Paso1 / 2
+
+	escribir (Area)
+fin

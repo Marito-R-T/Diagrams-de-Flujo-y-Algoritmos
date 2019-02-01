@@ -1,0 +1,23 @@
+Caracter: Sexo
+Sexo: m o f
+Inicio
+	escribir("Ingrese su edad")
+	leer("edad")
+	si edad < 18
+		entonces escribir("Ingrese su Sexo")
+		si Sexo = "m"
+			entonces escribir("No puede votar, hombre)
+		sino
+			escribir("No puede votar, mujer")
+		finsi
+	sino
+		escribir("Ingrese su Sexo")
+		si Sexo = "m"
+			entonces escribir("Si puede votar, hombre)
+		sino
+			escribir("Si puede votar, mujer)
+		finsi
+	finsi
+fin
+
+
